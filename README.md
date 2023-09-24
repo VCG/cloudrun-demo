@@ -6,6 +6,13 @@
 * Install [Docker](https://docs.docker.com/get-docker/)
 * Install [Node.js](https://nodejs.org/en/download/)
 
+Verify installs by testing the above tools in the command line
+```
+gcloud --version
+docker --version
+npm --version
+```
+
 ### Setup
 
 Login to gcloud project

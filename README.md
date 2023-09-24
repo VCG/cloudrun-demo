@@ -1,4 +1,5 @@
 # cloudrun-demo
+This tutorial demonstrates on how to deploy python/javascript-based apps using Google Cloud Run. 
 
 ### Prerequisites
 

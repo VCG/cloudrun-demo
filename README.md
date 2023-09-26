@@ -5,13 +5,11 @@ This tutorial will teach you how to deploy a simple client (javascript/react) an
 ### Prerequisites
 
 * Install [Google Cloud SDK](https://cloud.google.com/sdk/docs/install)
-* Install [Docker](https://docs.docker.com/get-docker/)
 * Install [Node.js](https://nodejs.org/en/download/)
 
 Verify installs by testing the above tools in the command line
 ```
 gcloud --version
-docker --version
 npm --version
 ```
 
@@ -50,7 +48,7 @@ python main.py
 // check http://127.0.0.1:4242/
 ```
 
-Have a look at the Dockerfile in your server directory. This file defines the container environment, that gcloud will use to host your python application. ALso familiarize yourself with the [serverless concept](https://en.wikipedia.org/wiki/Serverless_computing) of CloudRun. An app deployed in Cloud Run must fulfill [those requirements](https://cloud.google.com/run/docs/fit-for-run). Now deploy your code using this command from the cloud CLI:
+Have a look at `server/Dockerfile`. This file defines the container environment that gcloud will use to host your Python application. Also familiarize yourself with the [serverless concept](https://en.wikipedia.org/wiki/Serverless_computing) of CloudRun. An app deployed in Cloud Run must fulfill [those requirements](https://cloud.google.com/run/docs/fit-for-run). Now deploy your code using this command from the cloud CLI:
 
 ```
 gcloud run deploy <YOUR_NAME>-demo-server --source . --allow-unauthenticated

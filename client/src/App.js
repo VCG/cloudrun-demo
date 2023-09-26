@@ -15,7 +15,9 @@ function App() {
       .catch((error) => console.error("Error:", error));
   }, []);
 
-  return <h1>{text + " - This was loaded dynamically through a endpoint!"}</h1>;
+  return (
+    <h1>{text + " - This was loaded dynamically through an endpoint!"}</h1>
+  );
 }
 
 export default App;

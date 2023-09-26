@@ -1,4 +1,5 @@
 # cloudrun-demo
+This tutorial demonstrates on how to deploy python/javascript-based apps using Google Cloud Run. 
 
 This tutorial will teach you how to deploy a simple client (javascript/react) and server (python/fastapi) to Google Cloud Run.
 
@@ -7,6 +8,13 @@ This tutorial will teach you how to deploy a simple client (javascript/react) an
 * Install [Google Cloud SDK](https://cloud.google.com/sdk/docs/install)
 * Install [Docker](https://docs.docker.com/get-docker/)
 * Install [Node.js](https://nodejs.org/en/download/)
+
+Verify installs by testing the above tools in the command line
+```
+gcloud --version
+docker --version
+npm --version
+```
 
 ### Setup
 

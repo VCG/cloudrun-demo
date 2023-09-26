@@ -1,4 +1,4 @@
-# cloudrun-demo
+# Hands on Cloud Run Tutorial
 
 This tutorial will teach you how to deploy a simple client (javascript/react) and server (python/fastapi) to Google Cloud Run.
 

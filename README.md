@@ -65,5 +65,8 @@ Navigate to the client directory and install all local dependencies
 ```
 cd ../client
 npm install
-
 ```
+Deploy react client to cloud 
+```
+gcloud run deploy jakob-troidl-demo-client --source . --allow-unauthenticated
+

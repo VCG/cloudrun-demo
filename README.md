@@ -1,6 +1,6 @@
 # Hands on Cloud Run Tutorial
 
-This tutorial will teach you how to deploy a simple client (javascript/react) and server (python/fastapi) to Google Cloud Run.
+This tutorial will teach you how to deploy a simple client (Javascript/React) and server (Python/FastAPI) to Google Cloud Run.
 
 ### Prerequisites
 

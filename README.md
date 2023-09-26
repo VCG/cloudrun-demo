@@ -45,7 +45,7 @@ Run the app locally
 
 ```
 python main.py
-// check http://127.0.0.1:4242/
+// check http://127.0.0.1:4244/
 ```
 
 Have a look at `server/Dockerfile`. This file defines the container environment that gcloud will use to host your Python application. Also familiarize yourself with the [serverless concept](https://en.wikipedia.org/wiki/Serverless_computing) of CloudRun. An app deployed in Cloud Run must fulfill [those requirements](https://cloud.google.com/run/docs/fit-for-run). Now deploy your code using this command from the cloud CLI:

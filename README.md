@@ -6,6 +6,7 @@ This tutorial will teach you how to deploy a simple client (Javascript/React) an
 
 * Install [Google Cloud SDK](https://cloud.google.com/sdk/docs/install)
 * Install [Node.js](https://nodejs.org/en/download/)
+* [Python 3.9+](https://www.python.org/downloads/)
 
 Verify installs by testing the above tools in the command line
 ```

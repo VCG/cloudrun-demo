@@ -64,5 +64,6 @@ Navigate to the client directory and install all local dependencies
 
 ```
 cd ../client
+npm install
 
 ```

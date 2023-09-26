@@ -1,5 +1,4 @@
 # cloudrun-demo
-This tutorial demonstrates on how to deploy python/javascript-based apps using Google Cloud Run. 
 
 This tutorial will teach you how to deploy a simple client (javascript/react) and server (python/fastapi) to Google Cloud Run.
 

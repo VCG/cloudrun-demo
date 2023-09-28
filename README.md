@@ -20,7 +20,7 @@ Login to gcloud project
 
 ```
 gcloud auth login // prompts for login
-gcloud config set project nsf-2124179-159391
+gcloud config set project YOUR_GCLOUD_PROJECT
 gcloud config get-value project // verify project id
 ```
 

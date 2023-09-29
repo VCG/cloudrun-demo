@@ -55,7 +55,7 @@ Have a look at `server/Dockerfile`. This file defines the container environment 
 gcloud run deploy <YOUR_NAME>-demo-server --source . --allow-unauthenticated
 ```
 
-Once the command has finished successfully finished, visit the URL that is printed in the terminal. You should see the same output as when you ran the app locally. Also, inspect the options that are available for your deployment from the [Cloud Console](https://console.cloud.google.com/run?referrer=search&project=nsf-2124179-159391).
+Once the command has finished successfully finished, visit the URL that is printed in the terminal. You should see the same output as when you ran the app locally. Also, inspect the options that are available for your deployment from the [Cloud Console](https://console.cloud.google.com/run?referrer=search).
 
 ## Deploy React Client
 
